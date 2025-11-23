@@ -1,0 +1,20 @@
+// Declare modules for image file types to suppress TypeScript import errors
+declare module '*.jpg' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.JPG' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.png' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.jpeg' {
+  const content: string;
+  export default content;
+}
